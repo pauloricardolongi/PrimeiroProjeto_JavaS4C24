@@ -1,27 +1,17 @@
-import java.util.Locale;
+
 
 public class Main {
 
 	public static void main(String[] args) {
 	
-		/*concatenar vários elementos:
-		 %f= ponto flutuante - 4000.0
-		 %d= inteiro- 31 anos
-		 %s = texto - Maria
-		 %n= quebra de linha
-		 */
-		String nome= "Maria";
-		int idade= 31;
-		double renda= 4000.0;
-		Locale.setDefault(Locale.US);
-		System.out.printf("%s tem %d anos e ganha R$ %.2f reais.%n",nome, idade, renda);
+		//base de um trapesio
+		double b, B, h, area;
+		b=6.0;
+		B=8.0;
+		h=5.0;
+		area= (b + B)/ 2.0 *h;
+		System.out.println(area);
 		
-		
-		
-		
-		
-
-
 	}
 
 }
