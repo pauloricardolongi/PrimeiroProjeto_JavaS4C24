@@ -4,13 +4,13 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-	//entrada de dados SCANNER 
+	//ler um caracter
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		double x;
-		x= sc.nextDouble();
-		System.out.printf("Você digitou: %.2f%n",  x);
+		char x;
+		x= sc.next().charAt(0);
+		System.out.println("Você digitou:" +  x);
 		
 		sc.close();
 		
