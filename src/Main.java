@@ -13,9 +13,14 @@ public class Main {
 			System.out.println("Bom dia");	
 		
 		}
-		else {
-			System.out.println("Boa tarde");
-		}
+		else if(hora < 18) {
+			System.out.println("Boa tarde");				
+			}
+		else  {
+			System.out.println("Boa noite");
+			}
+		
+		
 		sc.close();
 	}
 }
